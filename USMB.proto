@@ -1,0 +1,20 @@
+//version de la syntaxe
+syntax = "proto3";    
+ 
+//On définit un service
+service Inscription {
+  rpc InscriptionUSMB(InscriptionRequest) returns (InscriptionResponse);  
+}
+ 
+//On définit les types de message
+ 
+//La requète attend un entier et une chaine de caractère
+message InscriptionRequest {
+  int32 annee = 1;   
+  string nom = 2; 
+}
+ 
+//La reponse sera une chaine de caractère
+message InscriptionResponse {
+  string message = 1;
+}
