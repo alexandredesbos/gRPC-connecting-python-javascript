@@ -5,9 +5,15 @@ Ce travail est une mise en application rapide du protocole GRPC dans le cadre d'
 #installation
 
 $pip install grpcio
+
 $pip install grpc-tools
+
 $npm install -g request
+
 $npm config set unsafe-perm true
+
 $npm install protoc-gen-grpc -g
->$npm install grpc
+
+$npm install grpc
+
 $npm install google-protobuf
