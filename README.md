@@ -1,5 +1,7 @@
 # gRPC-connecting-python-javascript
 
+Ce travail est une mise en application rapide du protocole GRPC dans le cadre d'un projet du CMI Informatique de l'USMB.
+
 #installation
 
 $pip install grpcio
